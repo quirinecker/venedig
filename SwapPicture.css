@@ -1,0 +1,59 @@
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+nav li {
+  float: left;
+  margin-left: 5px;
+}
+
+nav a {
+  display: block;
+  width: 100px;
+  height: 100px;
+}
+
+a.icon1:link, a.icon1:visited {
+  background: url(Images/png/Blackhome.png) no-repeat;
+  background-size:contain;
+}
+a.icon1:hover {
+  background: url(Images/png/bluehome.png) no-repeat;
+  background-size: contain;
+}
+
+
+a.icon2:link, a.icon1:visited {
+  background: url(Images/png/blackphoto.png) no-repeat;
+  background-size:contain;
+}
+a.icon2:hover {
+  background: url(Images/png/bluephoto.png) no-repeat;
+  background-size: contain;
+}
+
+
+a.icon3:link, a.icon3:visited {
+  background: url(Images/png/blackfacebook.gif) no-repeat;
+  background-size:contain;
+}
+a.icon3:hover {
+  background: url(Images/png/bluefacebook.gif) no-repeat;
+  background-size: contain;
+}
+
+
+a.icon4:link, a.icon4:visited {
+  background: url(Images/png/blackinfo.gif) no-repeat;
+  background-size:contain;
+}
+a.icon4:hover {
+  background: url(Images/png/blueinfo.gif) no-repeat;
+  background-size: contain;
+}
+
+article {
+  clear: both;
+}
